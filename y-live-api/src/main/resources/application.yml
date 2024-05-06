@@ -1,0 +1,5 @@
+server:
+  port: 3010
+spring:
+  jvm:
+    args: -Djava.security.manager --add-opens java.base/java.math=ALL-UNNAMED

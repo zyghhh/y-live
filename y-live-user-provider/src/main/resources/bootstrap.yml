@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: live-user-provider
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: 116.196.94.167:8848
+        namespace: 0ac9114d-681e-49ec-9f2d-539676816fc4
+
